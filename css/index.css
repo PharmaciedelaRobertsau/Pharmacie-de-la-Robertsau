@@ -35,7 +35,7 @@ body>header{
     overflow:auto;
     display: table-row;
     background:white;
-    height:40%;
+    max-height:40%;
 }
 body>header>div{
     max-width: 100%;
