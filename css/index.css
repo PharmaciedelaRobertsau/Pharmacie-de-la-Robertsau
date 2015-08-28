@@ -34,8 +34,8 @@ body{
 body>header{
     overflow:auto;
     display: table-row;
-    background:white;
-    max-height:40%;
+    background:#ffffff;
+    height: 40%;
 }
 body>header>div{
     max-width: 100%;
@@ -72,7 +72,7 @@ body>section{
 body>section>div{
     max-width: 100%;
 }
-body>section>div>div:nth-of-type(2)>div{
+body>section>div>div>div{
     font-size:18px;
     border-width: 3px; 
     border-style: solid; 

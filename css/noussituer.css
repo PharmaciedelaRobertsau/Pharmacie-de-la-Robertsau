@@ -3,10 +3,10 @@ body>header>div>ul>li:nth-of-type(9)>a{
     color:#9ebb25;
     text-decoration: none;
 }
-section>div>div:nth-of-type(2)>div>p>img{
+section>div>div>div>p>img{
     height: 20px;
     width: 20px;
 }
-section>div>div:nth-of-type(2)>div>iframe{
+section>div>div>div>iframe{
     max-width: 100%;
 }
