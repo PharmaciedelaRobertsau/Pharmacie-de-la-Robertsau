@@ -8,7 +8,7 @@ body>header>div>ul>li>a{
     font-weight: bold;
     height: 20px;
     transition: color 1s;
-    
+    white-space: nowrap;
 }
 body>header>div>ul>li>a:hover{
     color:#9ebb25;
