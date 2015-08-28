@@ -52,14 +52,16 @@ body>header>div>div:nth-of-type(3)>p{
     text-align: justify;
     margin-top: 35%;
 }
+body>header>div>container{
+    width:100%;
+}
 body>header>div>ul{
+    text-align:center;
     list-style-type: none;
-    float:left;
     margin:0px;
     margin-top: 1%;
     margin-bottom: 1%;
     padding: 0px;
-    min-width: 50%;
 }
 body>section{
     display: table-row;
