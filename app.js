@@ -3,22 +3,22 @@ var view_pro = angular.module('view_pro', ['ngRoute']);
 view_pro.config(['$routeProvider',
     function ($routeProvider) {
         $routeProvider
-            .when('/Pharmaciedelarobertsau/MaPharmacie', {
+            .when('/MaPharmacie', {
                 templateUrl: 'template/mapharmacie.html'
             })
-            .when('/Pharmaciedelarobertsau/Equipe', {
+            .when('/Equipe', {
                 templateUrl: 'template/equipe.html'
             })
-            .when('/Pharmaciedelarobertsau/ServicesetCompetences', {
+            .when('/ServicesetCompetences', {
                 templateUrl: 'template/servicescompetences.html'
             })
-            .when('/Pharmaciedelarobertsau/NousSituer', {
+            .when('/NousSituer', {
                 templateUrl: 'template/noussituer.html'
             })
-            .when('/Pharmaciedelarobertsau/Accueil', {
+            .when('/Accueil', {
                 templateUrl: 'template/accueil.html'
             })
             .otherwise({
-                redirectTo: '/Pharmaciedelarobertsau/Accueil'
+                redirectTo: '/Accueil'
             });
 }]);
