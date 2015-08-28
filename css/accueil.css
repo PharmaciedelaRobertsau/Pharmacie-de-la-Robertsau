@@ -1,0 +1,8 @@
+
+body>header>div>ul>li:nth-of-type(1)>a{
+    color:#9ebb25;
+    text-decoration: none;
+}
+div>img{
+    max-width: 95%;
+}

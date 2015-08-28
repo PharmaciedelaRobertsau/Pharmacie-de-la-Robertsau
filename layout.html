@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf8">
+        <!--Get Bootstrap-->
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <!--Get angularjs-->
+        <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.7/angular.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.7/angular-route.js"></script>
+        <script src="./app.js"></script>
+        <!--CSS-->
+        <link rel="stylesheet" href="./css/layout.css">
+        <link rel="stylesheet" href="./css/layout_ul.css">
+        <title>Pharmacie de la robertsau</title>
+    </head>
+    <body class="ng-scope" ng-app="view_pro">
+        <header>
+            <div class="row">
+                <div class="col-xs-3">
+                    <img src="./images/logo_pharmacie/logo_cross_L.jpg">
+                </div>
+                <div class="col-xs-7">
+                    <container>
+                            <img src="./images/logo_pharmacie/logo_name.jpg">
+                    </container>
+                </div>
+                <div class="col-xs-2">
+                    <p>68 rue Boeklin<br>
+                       67000 Strasbourg<br>
+                       03.88.31.04.26
+                    </p>
+                </div>    
+                <ul>
+                <li> <a href="#Pharmaciedelarobertsau/Accueil">Accueil</a></li>
+                <li>|</li>
+                <li> <a href="#Pharmaciedelarobertsau/MaPharmacie">Ma pharmacie</a></li>
+                <li>|</li>
+                <li> <a href="#Pharmaciedelarobertsau/Equipe">Equipe</a></li>
+                <li>|</li>
+                <li> <a href="#Pharmaciedelarobertsau/ServicesetCompetences">Services et Compétences</a></li>
+                <li>|</li>
+                <li> <a href="#Pharmaciedelarobertsau/NousSituer">Nous situer</a></li>
+            </ul>                   
+            </div>
+        </header>
+        <section>
+            <div class="row">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-9"><div ng-view></div></div>
+            </div>
+        </section>
+        <footer>
+            <span>Mon footer</span>
+        </footer>
+    </body>

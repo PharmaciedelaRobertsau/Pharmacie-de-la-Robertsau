@@ -1,0 +1,95 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face{
+    font-family: SSP;
+    src: url(../images/autre/font/SourceSansPro-Regular.otf);
+}
+@font-face{
+    font-family: SSP;
+    src: url(../images/autre/font/SourceSansPro-It.otf);
+    font-style:italic;
+}
+@font-face{
+    font-family: SSP;
+    src: url(../images/autre/font/SourceSansPro-Bold.otf);
+    font-weight:bold;
+}
+@font-face{
+    font-family: SSP;
+    src: url(../images/autre/font/SourceSansPro-BoldIt.otf);
+    font-style:italic;
+    font-weight:bold;
+}
+
+body{
+    display: table;
+    width:100%;
+    font-family: SSP;
+}
+
+body>header{
+    overflow:auto;
+    display: table-row;
+    background:white;
+    height:40%;
+}
+body>header>div{
+    max-width: 100%;
+}
+body>header>div>div:nth-of-type(1)>img{
+    max-height: 100%;
+    max-width: 100%;
+}
+body>header>div>div:nth-of-type(2)>container{
+    top:0px;
+}
+body>header>div>div:nth-of-type(2)>container>img{
+    max-width: 100%;
+}
+body>header>div>div:nth-of-type(3)>p{
+    float:right;
+    text-align: justify;
+    margin-top: 35%;
+}
+body>header>div>ul{
+    list-style-type: none;
+    float:left;
+    margin:0px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding: 0px;
+    min-width: 50%;
+}
+body>section{
+    display: table-row;
+    background-image: linear-gradient(#ffffff, #9ebb25);
+    text-align: center;
+}
+body>section>div{
+    max-width: 100%;
+}
+body>section>div>div:nth-of-type(2)>div{
+    font-size:18px;
+    border-width: 3px; 
+    border-style: solid; 
+    border-color: #ffffff;
+    background-color: rgba(255,255,255,0.6);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding:20px;
+    padding-top: 0px;
+}
+body>footer{
+    background: #9ebb25;
+    display: table-row;
+    height: 30px;
+    text-align: center;
+    margin-top: 10px;
+}
+body>footer>span{
+    font-size:12px;
+}

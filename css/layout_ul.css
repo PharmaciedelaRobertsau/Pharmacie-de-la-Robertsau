@@ -1,0 +1,16 @@
+body>header>div>ul>li{
+    display: inline;
+    font-size: 18px;
+}
+body>header>div>ul>li>a{
+    color:#737371;
+    text-decoration: none;
+    font-weight: bold;
+    height: 20px;
+    transition: color 1s;
+    
+}
+body>header>div>ul>li>a:hover{
+    color:#9ebb25;
+    text-decoration: none;
+}
