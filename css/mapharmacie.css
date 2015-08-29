@@ -3,6 +3,6 @@ body>header>div>ul>li:nth-of-type(3)>a{
     color:#9ebb25;
     text-decoration: none;
 }
-body>section>div>div>div>div>img{
+.logomarque{
     margin-top: 4%;
 }

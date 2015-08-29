@@ -3,7 +3,7 @@ body>header>div>ul>li:nth-of-type(1)>a{
     color:#9ebb25;
     text-decoration: none;
 }
-body>section>div>div>div>img{
+#photopharma{
     margin-top:2%;
     max-width: 95%;
 }
