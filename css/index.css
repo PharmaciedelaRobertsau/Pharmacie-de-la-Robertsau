@@ -62,7 +62,17 @@ body>footer{
     margin-top: 10px;
 }
 body>footer>span{
+    color:#555;
     font-size:12px;
+    font-style: italic;
+}
+body>footer>span>a{
+    color:#555;
+    text-decoration: none;
+}
+body>footer>span>a:hover{
+    color: #737371;
+    text-decoration: none;
 }
 .row{
     max-width: 100%;
