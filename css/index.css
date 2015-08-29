@@ -15,17 +15,14 @@ body>header{
     background:#ffffff;
     max-height: 40%;
 }
-body>header>div>div:nth-of-type(1)>img{
+body>header>div>a>img{
     max-height: 100%;
     max-width: 100%;
 }
-body>header>div>div:nth-of-type(2)>container{
-    top:0px;
-}
-body>header>div>div:nth-of-type(2)>container>img{
+body>header>div>div:nth-of-type(1)>a>img{
     max-width: 100%;
 }
-body>header>div>div:nth-of-type(3)>p{
+body>header>div>div:nth-of-type(2)>p{
     float:right;
     text-align: justify;
     margin-top: 35%;
