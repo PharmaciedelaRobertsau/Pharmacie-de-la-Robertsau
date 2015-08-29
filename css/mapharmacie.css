@@ -4,7 +4,8 @@ body>header>div>ul>li:nth-of-type(3)>a{
     text-decoration: none;
 }
 .logomarque{
-    margin-top: 4%;
+    margin:0;
+    padding:2%;
     max-height: 255px;
     max-width: 300px;
 }
