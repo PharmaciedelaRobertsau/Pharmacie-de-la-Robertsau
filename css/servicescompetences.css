@@ -5,4 +5,6 @@ body>header>div>ul>li:nth-of-type(5)>a{
 .illustration{
     max-height: 300px;
     max-width: 600px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
