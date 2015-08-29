@@ -3,6 +3,23 @@ body>header>div>ul>li:nth-of-type(1)>a{
     color:#9ebb25;
     text-decoration: none;
 }
-div>img{
+body>section>div>div>div>img{
+    margin-top:2%;
     max-width: 95%;
+}
+h1{
+    color:#9ebb25;
+    font-weight: bold;
+    font-size: 28px;
+}
+h2{
+    text-align: left;
+    font-size: 20px;
+}
+body>section>div>div>div>div>div>div>p{
+    text-align: left;
+    text-indent: 20%;
+}
+.underline{
+    text-decoration: underline;
 }
