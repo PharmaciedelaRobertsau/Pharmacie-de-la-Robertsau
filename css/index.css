@@ -29,15 +29,15 @@ body>header>div>div:nth-of-type(3)>p{
     float:right;
     text-align: justify;
     margin-top: 35%;
-    margin-right: 25%;
+    margin-right: 20%;
     color:#737371;
     text-decoration: none;
+    white-space: nowrap;
 }
 body>header>div>container{
     width:100%;
 }
 body>header>div>ul{
-    margin: 0 auto;
     list-style-type: none;
     margin:0px;
     padding: 0px;
