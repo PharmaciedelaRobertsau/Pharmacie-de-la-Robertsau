@@ -1,59 +1,74 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <meta charset="utf8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!--Get Bootstrap-->
-        <link rel="stylesheet" href="./css/bootstrap.min.css">
-        <!--Get angularjs-->
-        <script src="./angularjs1.2.7/angular.min.js"></script>
-        <script src="./angularjs1.2.7/angular-route.js"></script>
-        <script src="./app.js"></script>
-        <!--CSS-->
-        <link rel="stylesheet" href="./css/index.css">
-        <link rel="stylesheet" href="./css/index_ul.css">
-        <link rel="stylesheet" href="./css/font.css">
-        <title>Pharmacie de la robertsau</title>
-    </head>
-    <body class="ng-scope" ng-app="view_pro">
-        <header class="container-fluid">
-            <div class="row">
+
+<head>
+    <meta charset="utf8">
+    <meta name="title" content="Pharmacie de la Robertsau">
+    <meta name="subject" content="Pharmacie de la Robertsau">
+    <meta name="description" content="Site web officiel de la Pharmacie de la Robertsau, à Strasbourg">
+    <meta name="Keywords" content="pharmacie, pharmacies, robertsau, strasbourg, schwarzenbart, horaires, horaire">
+    <meta name="Language" content="html">
+    <meta name="Revisit-After" content="7 days">
+    <meta name="Robots" content="None">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Get Bootstrap-->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!--Get angularjs-->
+    <script src="./angularjs1.2.7/angular.min.js"></script>
+    <script src="./angularjs1.2.7/angular-route.js"></script>
+    <script src="./app.js"></script>
+    <!--CSS-->
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/index_ul.css">
+    <link rel="stylesheet" href="./css/font.css">
+    <title>Pharmacie de la robertsau</title>
+    <link rel="icon" href="favicon.ico">
+</head>
+
+<body class="ng-scope" ng-app="view_pro">
+    <header class="container-fluid">
+        <div class="row">
+            <a href="#Accueil">
+                <img class="hidden-xs col-sm-2 col-md-3" src="./images/logo_pharmacie/logo_cross_L.jpg">
+            </a>
+            <div class="col-xs-12 col-sm-7">
                 <a href="#Accueil">
-                    <img class="hidden-xs col-sm-2 col-md-3" src="./images/logo_pharmacie/logo_cross_L.jpg">
+                    <img src="./images/logo_pharmacie/logo_name.jpg">
                 </a>
-                <div class="col-xs-12 col-sm-7">
-                    <a href="#Accueil">
-                        <img src="./images/logo_pharmacie/logo_name.jpg">
-                    </a>
-                </div>
-                <div class="hidden-xs col-sm-3 col-md-2">
-                    <p>
-                        68 rue Boeklin<br>
-                        67000 Strasbourg<br>
-                        03.88.31.04.26
-                    </p>
-                </div>
-                <ul class="col-sm-12 col-md-7">
-                <li> <a href="#Accueil">Accueil</a></li>
+            </div>
+            <div class="hidden-xs col-sm-3 col-md-2">
+                <p>
+                    68 rue Boeklin
+                    <br> 67000 Strasbourg
+                    <br> 03.88.31.04.26
+                </p>
+            </div>
+            <ul class="col-sm-12 col-md-7">
+                <li> <a href="#Accueil">Accueil</a>
+                </li>
                 <li>|</li>
-                <li> <a href="#MaPharmacie">Ma pharmacie</a></li>
+                <li> <a href="#MaPharmacie">Ma pharmacie</a>
+                </li>
                 <li>|</li>
-                <li> <a href="#ServicesetCompetences">Services et Compétences</a></li>
+                <li> <a href="#ServicesetCompetences">Services et Compétences</a>
+                </li>
                 <li>|</li>
-                <li> <a href="#Equipe">Equipe</a></li>
+                <li> <a href="#Equipe">Equipe</a>
+                </li>
                 <li>|</li>
-                <li> <a href="#NousSituer">Nous situer</a></li>
+                <li> <a href="#NousSituer">Nous situer</a>
+                </li>
             </ul>
+        </div>
+    </header>
+    <section class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+                <div ng-view></div>
             </div>
-        </header>
-        <section class="container-fluid">
-            <div class="row">
-                <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
-                    <div ng-view></div>
-                </div>
-            </div>
-        </section>
-        <footer>
-            <span>Tous droits réservés | <a href="./mentionslegales.html">Mentions légales</a></span>
-        </footer>
-    </body>
+        </div>
+    </section>
+    <footer>
+        <span>Tous droits réservés | <a href="./mentionslegales.html">Mentions légales</a></span>
+    </footer>
+</body>
