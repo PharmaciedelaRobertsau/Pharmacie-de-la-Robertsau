@@ -1,0 +1,3 @@
+User-agent: Googlebot
+Disallow: http://pharmaciedelarobertsau.fr/mentionslegales.html
+Sitemap: http://pharmaciedelarobertsau.fr/sitemap.xml
